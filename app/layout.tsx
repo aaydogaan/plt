@@ -13,21 +13,8 @@ export const metadata: Metadata = {
     "Bromak Agency tarafından PLT İnovasyon için hazırlanmış anahtar teslim reklam ajansı hizmetleri - Strateji, Sosyal Medya, Video Prodüksiyon, Dijital Pazarlama",
   generator: "v0.app",
   icons: {
-    icon: [
-      {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
-      },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+    icon: "/images/bromak-favicon.png",
+    apple: "/images/bromak-favicon.png",
   },
 }
 
