@@ -14,9 +14,9 @@ const clients = [
         logo: "/images/parlak.png",
         instagram: "https://www.instagram.com/parlakmobilyadekorasyon",
         videos: [
-            "/videos/parlak-1.mp4",
-            "/videos/parlak-2.mp4",
-            "/videos/parlak-3.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/parlak-1.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/parlak-2.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/parlak-3.mp4",
         ],
     },
     {
@@ -25,9 +25,9 @@ const clients = [
         logo: "/images/terrainvest-logo.png",
         instagram: "https://www.instagram.com/terrainvest",
         videos: [
-            "/videos/terra-1.mp4",
-            "/videos/terra-2.mp4",
-            "/videos/terra-3.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/terra-1.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/terra-2.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/terra-3.mp4",
         ],
     },
     {
@@ -36,10 +36,10 @@ const clients = [
         logo: "/images/essen-bro.png",
         instagram: "https://www.instagram.com/essenhidrolik",
         videos: [
-            "/videos/essen-1.mp4",
-            "/videos/essen-2.mp4",
-            "/videos/essen-3.mp4",
-            "/videos/essen-4.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/essen-1.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/essen-2.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/essen-3.mp4",
+            "https://plt-inovasyon.brodigitalmedia.com/essen-4.mp4",
         ],
     },
 ]

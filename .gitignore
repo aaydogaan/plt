@@ -27,5 +27,5 @@ yarn-error.log*
 next-env.d.ts
 
 # large media files
-/public/videos/*.mp4
 /public/images/Bromak-Sunum.pdf
+.vercel
