@@ -85,8 +85,8 @@ export function HeroSection() {
                   <FileText className="w-6 h-6 text-primary" />
                 </div>
                 <div>
-                  <h3 className="text-xl font-semibold text-foreground">Sunum Dosyası</h3>
-                  <p className="text-sm text-muted-foreground">Yüksek Çözünürlüklü PDF</p>
+                  <h3 className="text-xl font-semibold text-foreground">Sunumlarımız</h3>
+                  <p className="text-sm text-muted-foreground">İşlerimizi İnceleyin</p>
                 </div>
               </div>
               <Button
@@ -101,26 +101,55 @@ export function HeroSection() {
 
             {/* Content */}
             <div className="p-6 space-y-4">
-              <div className="bg-amber-500/10 border border-amber-500/20 rounded-lg p-4">
+              <div className="bg-blue-500/10 border border-blue-500/20 rounded-lg p-4">
                 <p className="text-sm text-foreground/80 leading-relaxed">
-                  <span className="font-semibold text-amber-600">ℹ️ Bilgilendirme:</span> Sunum dosyamız yüksek kaliteli görseller içerdiği için boyutu büyüktür. Dosyanın yüklenmesi birkaç saniye sürebilir, lütfen bekleyiniz.
+                  <span className="font-semibold text-blue-600">ℹ️ Bilgilendirme:</span> Sunum dosyalarımız yüksek kaliteli görseller içerdiği için boyutları büyüktür. Dosyanın yüklenmesi birkaç saniye sürebilir, lütfen bekleyiniz.
                 </p>
               </div>
 
               <div className="space-y-3">
-                <Button
-                  className="w-full rounded-full h-12 gap-2"
-                  asChild
-                >
-                  <a href="/images/Bromak-Sunum.pdf" target="_blank" rel="noopener noreferrer">
-                    <Download className="w-4 h-4" />
-                    Sunumu Görüntüle
-                  </a>
-                </Button>
+                {/* Bromak Sunum */}
+                <div className="border border-border rounded-lg p-4 hover:bg-muted/50 transition-colors">
+                  <div className="flex items-start justify-between mb-3">
+                    <div>
+                      <h4 className="font-semibold text-foreground">Bromak Genel Sunum</h4>
+                      <p className="text-xs text-muted-foreground mt-1">Ajans portföyü ve hizmetlerimiz</p>
+                    </div>
+                  </div>
+                  <Button
+                    className="w-full rounded-full h-10 gap-2"
+                    asChild
+                  >
+                    <a href="/images/Bromak-Sunum.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="w-4 h-4" />
+                      Görüntüle
+                    </a>
+                  </Button>
+                </div>
+
+                {/* Kerem Nukte Sunum */}
+                <div className="border border-border rounded-lg p-4 hover:bg-muted/50 transition-colors">
+                  <div className="flex items-start justify-between mb-3">
+                    <div>
+                      <h4 className="font-semibold text-foreground">Kerem Nukte Projesi</h4>
+                      <p className="text-xs text-muted-foreground mt-1">Özel proje sunumu</p>
+                    </div>
+                  </div>
+                  <Button
+                    className="w-full rounded-full h-10 gap-2"
+                    variant="outline"
+                    asChild
+                  >
+                    <a href="/images/kerem-nukte.pdf" target="_blank" rel="noopener noreferrer">
+                      <Download className="w-4 h-4" />
+                      Görüntüle
+                    </a>
+                  </Button>
+                </div>
 
                 <Button
-                  variant="outline"
-                  className="w-full rounded-full h-12"
+                  variant="ghost"
+                  className="w-full rounded-full h-10 mt-2"
                   onClick={() => setShowPdfModal(false)}
                 >
                   Kapat
